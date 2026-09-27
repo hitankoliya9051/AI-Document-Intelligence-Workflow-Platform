@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 56" fill="none">
+  <defs>
+    <linearGradient id="iconBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4c1d95"/>
+      <stop offset="50%" stop-color="#7e22ce"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3b0764"/>
+      <stop offset="50%" stop-color="#6b21a8"/>
+      <stop offset="100%" stop-color="#9333ea"/>
+    </linearGradient>
+  </defs>
+  <!-- Icon box -->
+  <rect x="0" y="8" width="40" height="40" rx="10" fill="url(#iconBg)"/>
+  <!-- D letter in icon -->
+  <text x="7" y="38" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="30" fill="white">D</text>
+  <!-- Dot accent -->
+  <circle cx="35" cy="13" r="3.5" fill="#c084fc" opacity="0.85"/>
+  <!-- DocIntel text -->
+  <text x="52" y="30" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="20" fill="url(#textGrad)" letter-spacing="-0.5">Doc</text>
+  <text x="97" y="30" font-family="Arial, sans-serif" font-weight="400" font-size="20" fill="#7e22ce" letter-spacing="-0.5">intel</text>
+  <!-- AI badge -->
+  <rect x="52" y="36" width="22" height="10" rx="4" fill="#f3e8ff"/>
+  <text x="56" y="44" font-family="Arial, sans-serif" font-size="7" font-weight="700" fill="#7e22ce" letter-spacing="0.5">AI</text>
+  <!-- subtitle -->
+  <text x="80" y="44" font-family="Arial, sans-serif" font-size="7" fill="#a855f7" letter-spacing="0.3">Platform</text>
+</svg>

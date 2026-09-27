@@ -1,0 +1,33 @@
+{
+  "name": "ai-document-intelligence-workflow-platform",
+  "version": "1.0.0",
+  "description": "Production-ready AI Document Intelligence & Workflow Platform with Next.js, Express, MongoDB, TypeScript, and Tailwind CSS",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "build": "npm --prefix server run build && npm --prefix client run build",
+    "build:server": "npm --prefix server run build",
+    "build:client": "npm --prefix client run build",
+    "start": "concurrently \"npm --prefix server run start\" \"npm --prefix client run start\"",
+    "seed": "npm --prefix server run seed",
+    "lint": "npm --prefix client run lint",
+    "typecheck": "npm --prefix server run typecheck && npm --prefix client run typecheck"
+  },
+  "keywords": [
+    "document-intelligence",
+    "ai",
+    "ocr",
+    "workflow",
+    "nextjs",
+    "express",
+    "mongodb",
+    "typescript",
+    "tailwind"
+  ],
+  "author": "Portfolio Developer",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
